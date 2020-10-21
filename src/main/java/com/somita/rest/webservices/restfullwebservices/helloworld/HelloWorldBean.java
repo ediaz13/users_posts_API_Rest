@@ -1,4 +1,4 @@
-package com.somita.rest.webservices.restfullwebservices;
+package com.somita.rest.webservices.restfullwebservices.helloworld;
 
 public class HelloWorldBean {
 

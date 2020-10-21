@@ -1,4 +1,4 @@
-package com.somita.rest.webservices.restfullwebservices;
+package com.somita.rest.webservices.restfullwebservices.helloworld;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

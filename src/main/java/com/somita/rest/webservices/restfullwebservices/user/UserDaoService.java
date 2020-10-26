@@ -35,12 +35,12 @@ public class UserDaoService {
     }
 
     public User finOne (int id) {
-         for (User user:users) {
-             if (user.getId() == id) {
-                 return user;
-             }
-         }
-         return null;
+        for (User user:users) {
+            if (user.getId() == id) {
+                return user;
+            }
+        }
+        return null;
     }
 
 

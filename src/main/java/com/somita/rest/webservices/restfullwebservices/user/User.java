@@ -6,16 +6,15 @@ import java.util.Date;
 
 public class User {
 
-
-    private String name;
+    private Integer id;
 
     @Size(min=2, message = "Name should have at least 2 charecters")
-    private Integer id;
+    private String name;
 
     @Past
     private Date birthDate;
 
-    public User(Integer id, String name, Date birthDate) {
+    public User(Integer id, @Size(min = 2, message = "Name should have at least 2 charecters") String name, @Past Date birthDate) {
         this.id = id;
         this.name = name;
         this.birthDate = birthDate;

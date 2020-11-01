@@ -1,6 +1,8 @@
 package com.somita.rest.webservices.restfullwebservices.user;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.hateoas.EntityModel;
+import org.springframework.hateoas.server.mvc.WebMvcLinkBuilder;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
@@ -26,6 +28,17 @@ public class UserController {
         if (user == null) {
             throw new UserNotFoundException("id-" + id);
         }
+
+        EntityModel<User> resModel = EntityModel.of(user);
+        //"all-users", SERVER_PATH + "/users"
+        //retrieveAllUsers
+
+        WebMvcLinkBuilder linkTo =
+                WebMvcLinkBuilder.linkTo(WebMvcLinkBuilder.methodOn(this.getClass()).retrieveAllUsers());
+
+        resModel.add(linkTo.withRel("all-users"));
+
+        //HATEOAS
         return user;
     }
 

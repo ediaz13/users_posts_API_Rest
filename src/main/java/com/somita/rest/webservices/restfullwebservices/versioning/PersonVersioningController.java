@@ -1,6 +1,5 @@
 package com.somita.rest.webservices.restfullwebservices.versioning;
 
-
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

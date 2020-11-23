@@ -1,4 +1,4 @@
-package com.somita.rest.webservices.restfullwebservices.versioning;
+package com.somita.rest.webservices.restfulwebservices.versioning;
 
 public class Name {
     private String firstName;

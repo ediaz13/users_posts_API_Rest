@@ -1,6 +1,6 @@
-package com.somita.rest.webservices.restfullwebservices.exception;
+package com.somita.rest.webservices.restfulwebservices.exception;
 
-import com.somita.rest.webservices.restfullwebservices.user.UserNotFoundException;
+import com.somita.rest.webservices.restfulwebservices.user.UserNotFoundException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

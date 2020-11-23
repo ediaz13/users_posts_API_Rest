@@ -1,6 +1,5 @@
-package com.somita.rest.webservices.restfullwebservices.filtering;
+package com.somita.rest.webservices.restfulwebservices.filtering;
 
-import com.fasterxml.jackson.databind.ser.BeanPropertyFilter;
 import com.fasterxml.jackson.databind.ser.FilterProvider;
 import com.fasterxml.jackson.databind.ser.impl.SimpleBeanPropertyFilter;
 import com.fasterxml.jackson.databind.ser.impl.SimpleFilterProvider;

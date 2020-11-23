@@ -1,4 +1,4 @@
-package com.somita.rest.webservices.restfullwebservices.user;
+package com.somita.rest.webservices.restfulwebservices.user;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

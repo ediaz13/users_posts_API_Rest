@@ -1,4 +1,4 @@
-package com.somita.rest.webservices.restfullwebservices.user;
+package com.somita.rest.webservices.restfulwebservices.user;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.hateoas.EntityModel;

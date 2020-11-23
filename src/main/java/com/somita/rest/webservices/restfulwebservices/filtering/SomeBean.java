@@ -1,4 +1,4 @@
-package com.somita.rest.webservices.restfullwebservices.filtering;
+package com.somita.rest.webservices.restfulwebservices.filtering;
 
 import com.fasterxml.jackson.annotation.JsonFilter;
 import com.fasterxml.jackson.annotation.JsonIgnore;

@@ -1,4 +1,4 @@
-package com.somita.rest.webservices.restfullwebservices.exception;
+package com.somita.rest.webservices.restfulwebservices.exception;
 
 import java.util.Date;
 

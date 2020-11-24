@@ -24,7 +24,7 @@ public class UserController {
 
     @GetMapping("/users/{id}")
     public User retrieveUser (@PathVariable int id) {
-        User user =  service.finOne(id);
+        User user =  service.findOne(id);
         if (user == null) {
             throw new UserNotFoundException("id-" + id);
         }
